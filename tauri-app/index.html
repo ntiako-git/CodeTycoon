@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Tauri App</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="card">
+        <h1>Argent: <span id="balanceMsg"></span>€</h1>
+        <p>Réputation: <span id="repMsg"></span></p>
+        <p>Contrat actuel: <span id="currentContractMsg"></span></p>
+        <button id="clickBtn">Clique et gagne du fric</button>
+        <hr>
+        <h2>Contrats</h2>
+        <div id="contractsContainer" class="contractsContainer"></div>
+      </div>
+    </main>
+  </body>
+</html>
